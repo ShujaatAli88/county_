@@ -1,0 +1,9 @@
+/my_venv
+*my_venv
+
+/.env
+*env
+*.env
+
+/tmp
+*tmp

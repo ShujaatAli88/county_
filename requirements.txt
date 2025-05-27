@@ -1,0 +1,7 @@
+requests
+loguru
+lxml
+sentry_sdk
+pydantic
+python-dotenv
+pyairtable

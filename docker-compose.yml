@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  c-clerk-county:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: c-clerk-county-image
+    env_file:
+      - .env
+    restart: unless-stopped

@@ -62,7 +62,7 @@ class CClerkCrawler:
             _logger.info(f"Found {len(valid_hrefs)} valid doclink hrefs .")
             if not valid_hrefs:
                 _logger.warning("No valid doclink hrefs found in the response.")
-                return False,False
+                return [],[]
             else:
                 _logger.info(f"Extracted {len(valid_hrefs)} doclink hrefs.")
                 return valid_hrefs, document_names
